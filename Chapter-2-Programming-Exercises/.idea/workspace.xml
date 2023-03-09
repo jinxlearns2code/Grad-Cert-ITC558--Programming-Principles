@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="804975b3-81f9-47ee-924e-78fe179a91d5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Chapter-1-Programming-Exercises/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter-1-Programming-Exercises/.idea/Chapter-1-Programming-Exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter-1-Programming-Exercises/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter-1-Programming-Exercises/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter-1-Programming-Exercises/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter-1-Programming-Exercises/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter-1-Programming-Exercises/1-Personal-Information-Exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/1-Personal-Information-Exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter-1-Programming-Exercises/2-Sales-Prediction-Exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/2-Sales-Prediction-Exercise.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Mdoiar79Nokop7IYf5qkKivJ17" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Web Development/CSU Grad Cert of IT/ITC558--Programming-Fundamentals"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="804975b3-81f9-47ee-924e-78fe179a91d5" name="Changes" comment="" />
+      <created>1678106947466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678106947466</updated>
+    </task>
+    <servers />
+  </component>
+</project>
