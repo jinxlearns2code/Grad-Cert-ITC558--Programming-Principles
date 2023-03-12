@@ -6,16 +6,17 @@
 # amount of purchase plus the total sales tax).
 
 # Ask user to input data
-purchase_amount = input("Please enter the amount of purchase: ")
+purchase_amount = float(input("Please enter the amount of purchase: "))
 
 # Assign values to variables
 state_sales_tax = .05
 county_sales_tax = .025
-total_sales_tax = state_sales_tax + county_sales_tax
+combined_sales_tax = state_sales_tax + county_sales_tax
+total_sales_tax = combined_sales_tax * purchase_amount
 
 # Calculate & display
-print(f"Amount of Purchase: ${purchase_amount}")
-print(f"State Sales Tax: ${float(purchase_amount * state_sales_tax)}")
-print(f"County Sales Tax: ${float(purchase_amount * state_sales_tax)}")
-print(f"Total Sales Tax: ${float(total_sales_tax * purchase_amount)}")
-print(f"Grand Total: ${float(purchase_amount + total_sales_tax)}")
+print(f"Amount of Purchase: ${purchase_amount: .2f}")
+print(f"State Sales Tax: ${purchase_amount * state_sales_tax: .2f}")
+print(f"County Sales Tax: ${purchase_amount * county_sales_tax: .2f}")
+print(f"Total Sales Tax: ${total_sales_tax: .2f}")
+print(f"Grand Total: ${purchase_amount + total_sales_tax: .2f}")
