@@ -7,8 +7,9 @@
 food_charge = float(input("Please enter the amount charged for the food: "))
 
 # Computation and display of data
-tip = .18
-sales_tax = .07
-print(f"Tip 18%: {food_charge * tip: .2f}")
-print(f"Sales Tax 7%: {food_charge * sales_tax: .2f}")
-print(f"")
+tip = food_charge * .18
+sales_tax = food_charge * .07
+
+print(f"Tip 18%: {tip: .2f}")
+print(f"Sales Tax 7%: {sales_tax: .2f}")
+print(f"Total Amount: {food_charge + tip + sales_tax: .2f}")
