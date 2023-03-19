@@ -1,1 +1,281 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T02:25:50.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.8" etag="uqUMzgJwA5nv-vkMRoHa" type="github"><diagram name="Page-1" id="PM0LsIdgbVtt8dAOupI_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-19T14:25:41.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ybGjWiDPKmVZ7HD5N_fd" version="21.0.8" type="github">
+  <diagram name="Page-1" id="PM0LsIdgbVtt8dAOupI_">
+    <mxGraphModel dx="3000" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-4" target="nE8QzjrR0l2ZOIGESF56-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-4" value="Start" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.5" y="40" as="sourcePoint" />
+            <mxPoint x="200" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-6" value="base_price = 20&lt;br&gt;total_adult = 0&lt;br&gt;child = 0&lt;br&gt;weeks = 52.143&lt;br&gt;months = 12" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;size=0.25" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.5" y="160" as="sourcePoint" />
+            <mxPoint x="200" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-9" target="nE8QzjrR0l2ZOIGESF56-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-9" target="nE8QzjrR0l2ZOIGESF56-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-9" value="silver = 1.25 * base_price&lt;br&gt;gold = 1.5 * base_price&lt;br&gt;zero_four = .50 * base_price&lt;br&gt;five_nine = .60 * base_price&lt;br&gt;ten_thirteen = .70 * base_price&lt;br&gt;fourteen_seventeen = .80 * base_price&lt;br&gt;tier_cover = basic_price&amp;nbsp;&lt;span style=&quot;border: 0px; color: var(--highlight-keyword); font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; background-color: transparent; text-align: left; margin: 0px; padding: 0px; font-stretch: inherit; line-height: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 13px; vertical-align: baseline; box-sizing: inherit;&quot; class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-size: var(--_pr-code-fs); font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left;&quot;&gt;&amp;nbsp;tier_cover ==&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left; font-size: 13px;&quot;&gt;b or B&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-size: var(--_pr-code-fs); font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border: 0px; color: var(--highlight-keyword); font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; background-color: transparent; text-align: left; margin: 0px; padding: 0px; font-stretch: inherit; line-height: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 13px; vertical-align: baseline; box-sizing: inherit;&quot; class=&quot;hljs-keyword&quot;&gt;else&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-size: var(--_pr-code-fs); font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left; font-size: 13px;&quot;&gt;silver&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-size: var(--_pr-code-fs); font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border: 0px; color: var(--highlight-keyword); font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; background-color: transparent; text-align: left; margin: 0px; padding: 0px; font-stretch: inherit; line-height: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 13px; vertical-align: baseline; box-sizing: inherit;&quot; class=&quot;hljs-keyword&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-size: var(--_pr-code-fs); font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left;&quot;&gt;&amp;nbsp;tier_cover ==&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left; font-size: 13px;&quot;&gt;s or S&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-size: var(--_pr-code-fs); font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left;&quot;&gt;&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border: 0px; color: var(--highlight-keyword); font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; background-color: transparent; text-align: left; margin: 0px; padding: 0px; font-stretch: inherit; line-height: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 13px; vertical-align: baseline; box-sizing: inherit;&quot; class=&quot;hljs-keyword&quot;&gt;else&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-size: var(--_pr-code-fs); font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left; font-size: 13px;&quot;&gt;gold&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: var(--highlight-color); font-family: inherit; font-size: var(--_pr-code-fs); font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent; text-align: left;&quot;&gt;))&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.5" y="400" as="sourcePoint" />
+            <mxPoint x="200" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-16" value="total_adult = total_adult + 1" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-26" value="yes(true)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="769.41" as="targetPoint" />
+            <mxPoint x="250" y="769.4099999999997" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="999.9999999999998" as="targetPoint" />
+            <mxPoint x="200" y="899.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-43" value="display weekly_cover,&amp;nbsp;&lt;br&gt;monthly_cover,&lt;br&gt;annual_cover" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;size=0.17045454545454544;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1000" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="240" as="targetPoint" />
+            <mxPoint x="300" y="1040" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="760" y="1040" />
+              <mxPoint x="760" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-74" target="nE8QzjrR0l2ZOIGESF56-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="670" as="targetPoint" />
+            <mxPoint x="540" y="669.9999999999998" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-50" value="yes(true)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-49">
+          <mxGeometry x="-0.696" relative="1" as="geometry">
+            <mxPoint x="720" y="870" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-49" value="another&lt;br&gt;child?" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="495" y="585" width="90" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-54" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="870" as="sourcePoint" />
+            <mxPoint x="540" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-55" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="nE8QzjrR0l2ZOIGESF56-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="870" as="sourcePoint" />
+            <mxPoint x="539.8199999999999" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-56" value="no(false)" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="nE8QzjrR0l2ZOIGESF56-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.41" y="585" as="sourcePoint" />
+            <mxPoint x="539.41" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-57" value="weekly_cover_child = (total_adult if total_adult == 1 else second_adult) * tier_cover + child&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;monthly_cover_child = weekly_cover_child * months&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;annual_cover_child = weekly cover_child * weeks" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="398.75" y="440" width="282.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.5" y="400" as="sourcePoint" />
+            <mxPoint x="200" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-63" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="340" as="sourcePoint" />
+            <mxPoint x="200" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-64" value="input number_of_adults (1-2), &lt;br&gt;number_of_children (0+), &lt;br&gt;age_of_child/children,&lt;br&gt;tier_cover (s/S or g/G)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;size=0.125;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.5" y="440" as="sourcePoint" />
+            <mxPoint x="200" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-66" value="number_of&lt;br&gt;_adults &amp;gt; 1&lt;br&gt;and &amp;lt; 2?" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-67" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.5" y="520" as="sourcePoint" />
+            <mxPoint x="200" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-68" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="500" as="sourcePoint" />
+            <mxPoint x="260" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-69" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="609.5" as="sourcePoint" />
+            <mxPoint x="340" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250.5" y="609.5" />
+              <mxPoint x="270" y="609.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-70" value="yes(true)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nE8QzjrR0l2ZOIGESF56-69">
+          <mxGeometry x="-0.0227" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-71" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="610" as="sourcePoint" />
+            <mxPoint x="340" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-72" value="no(false)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="720" as="targetPoint" />
+            <mxPoint x="200" y="660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="680" />
+              <mxPoint x="200" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-73" value="number_of_&lt;br&gt;children &amp;gt;= 1?" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="720" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-74" value="&lt;br&gt;child_premium = zero_four if age_of_child &amp;lt; 5 &lt;br&gt;else (five_nine if age_of_child &amp;lt; 10 else&amp;nbsp;&lt;br&gt;(ten_thirteen if age_of_child &amp;lt; 14 &lt;br&gt;else fourteen_seventeen))&lt;br&gt;&lt;br&gt;child = child + child_premium&lt;br&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: var(--_pr-lh); font-family: var(--theme-post-body-font-family); font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--_pr-fs); vertical-align: baseline; box-sizing: inherit; --_pr-fs:calc(var(--su-static16) - var(--su-static1)); --_pr-lh:1.5; --_pr-blockquote-ml:1em; --_pr-blockquote-mt:0; --_pr-blockquote-before-bg:var(--black-150); --_pr-code-fs:var(--fs-body1); --_pr-h1-fs:var(--fs-headline1); --_pr-h2-fs:var(--fs-title); --_pr-h3-fs:var(--fs-subheading); --_pr-h4-fs:var(--fs-body3); --_pr-h5-fs:var(--fs-body2); --_pr-h6-fs:var(--fs-body1); --_pr-hr-bg:var(--black-100); --_pr-img-mb:1.1em; --_pr-kbd-bc:var(--black-300); --_pr-kbd-bs:0 var(--su-static1) var(--su-static1) hsla(210,8%,5%,0.15), inset 0 1px 0 0 hsl(0, 0%, 100%); --_pr-spoiler-cursor:pointer; --_pr-spoiler-after-t:1em; --_pr-soiler-after-o: unset; --_pr-soiler-child-o:0; --_pr-soiler-child-visibility:hidden; --s-prose-spacing:1.1em; --s-prose-spacing-condensed:calc(1.1em / 2); overflow-wrap: break-word; width: 659px;&quot; class=&quot;s-prose js-post-body&quot;&gt;&lt;div&gt;&lt;code style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--_pr-code-fs); vertical-align: baseline; box-sizing: inherit; background-color: transparent;&quot; class=&quot;hljs language-python&quot;&gt;&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-top: var(--su24)  !important; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 13px; vertical-align: baseline; box-sizing: inherit;&quot; class=&quot;mt24&quot;&gt;&lt;div style=&quot;margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit; flex-wrap: wrap !important; justify-content: flex-end !important; align-items: flex-start !important; display: flex !important;&quot; class=&quot;d-flex fw-wrap ai-start jc-end gs8 gsy&quot;&gt;&lt;time style=&quot;margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit; color: rgb(35, 38, 41); text-align: left; background-color: rgb(255, 255, 255);&quot; datetime=&quot;2021-06-26T13:04:27&quot;&gt;&lt;/time&gt;&lt;div style=&quot;margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-stretch: inherit; line-height: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit; color: rgb(35, 38, 41); text-align: left; background-color: rgb(255, 255, 255); flex: 1 1 100px;&quot; class=&quot;flex--item mr16&quot;&gt;&lt;div style=&quot;margin: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit; padding-top: var(--su2)  !important;&quot; data-post-type-id=&quot;2&quot; data-post-id=&quot;68142666&quot; class=&quot;js-post-menu pt2&quot;&gt;&lt;div style=&quot;margin: calc(var(--su8) / 2 * -1); padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; box-sizing: inherit; --_an-a-fc:var(--black-500); --_an-a-fc-hover:var(--black-400); flex-wrap: wrap !important; display: flex !important;&quot; class=&quot;d-flex gs8 s-anchors s-anchors__muted fw-wrap&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="716.25" width="280" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-75" value="no(false)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.5" y="880" as="targetPoint" />
+            <mxPoint x="199.5" y="820" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="199.5" y="840" />
+              <mxPoint x="199.5" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-76" value="weekly_cover = (total_adult if total_adult == 1 else second_adult) * tier_cover&lt;br&gt;monthly_cover = weekly_cover * months&lt;br&gt;annual_cover = weekly cover * weeks" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="880" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-80" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="540" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540.2941176470588" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-82" value="display weekly_cover_child,&amp;nbsp;&lt;br&gt;monthly_cover_child,&lt;br&gt;annual_cover_child" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;size=0.13636363636363635;" vertex="1" parent="1">
+          <mxGeometry x="430" y="320" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-85" value="yes(true)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-89" value="no(false)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nE8QzjrR0l2ZOIGESF56-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-83" value="another&lt;br&gt;quote?" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="495" y="200" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-86" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="240" as="sourcePoint" />
+            <mxPoint x="380" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-88" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-90" value="End" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="500" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nE8QzjrR0l2ZOIGESF56-92" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="nE8QzjrR0l2ZOIGESF56-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
