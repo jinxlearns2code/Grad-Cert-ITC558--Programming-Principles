@@ -33,14 +33,17 @@ total_sales = (sold_shares * sell_price) - stockbroker_sell_commission
 net_amount = total_sales - total_cost
 
 # Display output
-print(f"{stockbroker_purchase_commission} was paid to the broker when the shares were purchased.")
-print(f"{stockbroker_sell_commission} was paid to the broker when the shares were sold.")
+print("")
+print("------------------------------------------------------------------")
+print(f"${stockbroker_purchase_commission:,.2f} was paid to the broker when the shares were purchased.")
+print(f"${stockbroker_sell_commission:,.2f} was paid to the broker when the shares were sold.")
 
 # if-else to display profit or loss
 if net_amount > 0:
-    print(f"Profit: ${net_amount}")
+    print(f"Profit: ${net_amount:,.2f}")
 elif net_amount == 0:
     print("Breakeven")
 else:
-    print(f"Loss: ${net_amount}")
+    print(f"Loss: ${net_amount:,.2f}")
 
+print("------------------------------------------------------------------")
