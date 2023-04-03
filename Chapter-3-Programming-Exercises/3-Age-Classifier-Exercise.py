@@ -7,4 +7,14 @@
 # If the person is at least 20 years old, he or she is an adult.
 
 # Ask user for input
-age = int(input("Please enter the person's age: "))
+age = float(input("Please enter the person's age (in year format): "))
+
+# if elif statement
+if age <= 1:
+    print("The person is an infant.")
+elif 1 < age < 13:
+    print("The person is a child.")
+elif age <= 13 and age < 20:
+    print("The person is a teenager.")
+else:
+    print("The person is an adult.")
