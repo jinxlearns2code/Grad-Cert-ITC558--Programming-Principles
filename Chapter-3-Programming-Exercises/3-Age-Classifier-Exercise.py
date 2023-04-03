@@ -6,3 +6,5 @@
 # If the person is at least 13 years old, but less than 20 y.o., he or she is a teenager.
 # If the person is at least 20 years old, he or she is an adult.
 
+# Ask user for input
+age = int(input("Please enter the person's age: "))
