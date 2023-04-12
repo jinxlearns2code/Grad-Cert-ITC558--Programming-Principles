@@ -4,3 +4,14 @@
 
 # Prompt user to input data
 mass = float(input("Please enter an object's mass to calculate its weight: "))
+
+# Calculate
+weight = mass * 9.8
+
+# Conditionals
+if weight > 500:
+    print("The object is too heavy.")
+elif weight < 100:
+    print("The object is too light.")
+else:
+    print("Invalid number.")
